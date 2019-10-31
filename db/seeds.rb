@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Post.destroy_all #Remove every row from the planets table 
+Post.create(name: 'Alex', city: 'Sydney', objective: 'Friendship')
+Post.create(name: 'Brian', city: 'Melbourne', objective: 'Hangout')
+Post.create(name: 'Chris', city: 'Brisbane', objective: 'Networking')

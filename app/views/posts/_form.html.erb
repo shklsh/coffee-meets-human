@@ -1,0 +1,20 @@
+<%= form_for :post, url: posts_path do |f| %>
+  <p>
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </p>
+ 
+  <p>
+    <%= f.label :city %><br>
+    <%= f.text_field :city %>
+  </p>
+
+  <p>
+    <%= f.label :objective %><br>
+    <%= f.text_field :objective %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

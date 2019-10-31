@@ -1,0 +1,5 @@
+<h2>Name: <%= @post.name %></h2>
+<h2>City: <%= @post.city %></h2>
+<h2>Objective<%= @post.objective %></h2>
+<%= link_to 'Edit', post_edit_path(@post.id) %>
+<%= button_to 'Delete', post_path(@post.id), :method => 'delete', :data => {:confirm => 'Are you sure?'} %>

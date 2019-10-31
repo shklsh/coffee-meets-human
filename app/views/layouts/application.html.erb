@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CoffeeMeetsHuman</title>
+    <title>Coffee Meets Human</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <%= stylesheet_link_tag 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' %>
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <%= javascript_pack_tag 'application' %>
+
+    <script src="https://kit.fontawesome.com/c5fb3fea1f.js" crossorigin="anonymous"></script>
+    
   </head>
 
   <body>
+  
+  <div class="container">
     <%= yield %>
+  </div>
+  
   </body>
 </html>
