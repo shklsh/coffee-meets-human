@@ -1,5 +1,21 @@
 <h1>Add Post</h1>
 
-<%= render 'form', post: @post %>
+<%# <%= render 'form', post: @post %>
 
-<%= link_to 'Back', posts_path %>
+<%# <%= link_to 'Back', posts_path %>
+
+<%= form_for @post do |f| %>
+  <div class="field">
+      <%= f.label :name %><br />
+      <%= f.text_field :name %>
+  </div>
+  <div class="field">
+      <%= f.label :city %><br />
+      <%= f.text_field :city %>
+  </div>
+  <div class="field">
+      <%= f.label :objective %><br />
+    <%= f.text_field :objective %>
+  </div>
+  <div class="actions"><%= f.submit "Create Post" %></div>
+<% end %>

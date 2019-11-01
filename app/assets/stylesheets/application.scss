@@ -17,6 +17,9 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
 
-.container {
+.container, h1, nav {
     text-align: center;
+}
+.container1 {
+    text-align: right;
 }

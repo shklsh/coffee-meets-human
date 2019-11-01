@@ -1,23 +1,24 @@
 class UsersController < ApplicationController
-    # before_action :authorise_user, :except => [:index]
+    def index
+        @users = User.all
+    end
     
     def new
+        @user = User.new
     end
-
+    
     def create
-        user = User.new(
-            name: params[:name],
-            age: params[:age],
-            password: params[:password],
-            password_confirmation: params[password_confirmation]
-        )
-        if user.save 
-            session[:user_id] = user.id
-            flash[:success] = "Successfully Created User!"
-            redirect_to '/home'
+   
+        form_params = params.require(:user)
+        .permit(:name, :age, :email, :password, :password_confirmation)
+   
+        @user = User.new(form_params)
+        if @user.save
+            session[:user_id] = @user.id
+            redirect_to root_url, notice: "Thank you for signing up!"
         else
-            flash[:warning] = "Invalid Email or Password"
-            redirect_to '/signup'
+            flash.now.alert = "sorry, wrong email or password"
+            render "new"
         end
     end
 end

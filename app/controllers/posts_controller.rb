@@ -1,5 +1,4 @@
 class PostsController < ApplicationController
-    before_action :authorise_post, :except => [:index]
     
     def index
         @posts = Post.all
@@ -10,13 +9,19 @@ class PostsController < ApplicationController
     end
 
     def new
+        if not current_user
+            redirect_to '/login' and return
+        end
         @post = Post.new
     end
 
     def create
+        
+        post_params = params.require(:post).permit(:name, :city, :objective)
         # render plain: params[:post].inspect
         @post = Post.new(post_params)
-
+        # @post.user_id = current_user.id
+        
         if @post.save
             redirect_to @post
         else
@@ -29,12 +34,15 @@ class PostsController < ApplicationController
     end 
 
     def update
-    @post = Post.find(params[:id])
+
+        post_params = params.require(:post).permit(:name, :city, :objective)
+
+        @post = Post.find(params[:id])
  
         if @post.update(post_params)
-        redirect_to @post
+            redirect_to @post
         else
-        render 'edit'
+            render 'edit'
         end
     end
 
@@ -45,7 +53,7 @@ class PostsController < ApplicationController
     end
 
     # Strong params: create a whitelist of permitted parameters
-    private def post_params
-        params.require(:post).permit(:name, :city, :objective)
-    end
+    # def post_params
+    #     params.require(:post).permit(:name, :city, :objective)
+    # end
 end

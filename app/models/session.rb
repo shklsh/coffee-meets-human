@@ -1,3 +1,3 @@
 class Session < ApplicationRecord
-    has_one :user
+    # has_one :user
 end
