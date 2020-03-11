@@ -1,11 +1,15 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyText
-  city: MyText
-  objective: MyText
+  user_id: 1
+  name: MyString
+  city: MyString
+  title: MyString
+  content: MyText
 
 two:
-  name: MyText
-  city: MyText
-  objective: MyText
+  user_id: 1
+  name: MyString
+  city: MyString
+  title: MyString
+  content: MyText
