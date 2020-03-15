@@ -16573,3 +16573,492 @@ Processing by PostsController#index as HTML
 Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.6ms | Allocations: 16760)
 
 
+Started GET "/" for ::1 at 2020-03-16 03:22:26 +1100
+  [1m[35m (4.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 202)
+Completed 200 OK in 1065ms (Views: 1061.1ms | ActiveRecord: 0.0ms | Allocations: 1384999)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:22:47 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 87)
+Completed 200 OK in 45ms (Views: 43.4ms | ActiveRecord: 0.0ms | Allocations: 16667)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:22:54 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 85)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 16665)
+
+
+Started GET "/posts/" for ::1 at 2020-03-16 03:25:53 +1100
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (4.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:18
+  Rendered posts/index.html.erb within layouts/application (Duration: 40.2ms | Allocations: 7263)
+Completed 200 OK in 71ms (Views: 33.2ms | ActiveRecord: 30.2ms | Allocations: 24859)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:26:41 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 2312ms (Views: 2311.2ms | ActiveRecord: 0.0ms | Allocations: 35115)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:26:56 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms | Allocations: 15662)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:27:34 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 1935ms (Views: 1934.5ms | ActiveRecord: 0.0ms | Allocations: 34166)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:27:41 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 15257)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:27:53 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.0ms | Allocations: 15223)
+
+
+Started GET "/posts/" for ::1 at 2020-03-16 03:27:54 +1100
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:18
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1400)
+Completed 200 OK in 31ms (Views: 29.3ms | ActiveRecord: 0.4ms | Allocations: 16373)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:27:55 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.0ms | Allocations: 15220)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:28:30 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 1145ms (Views: 1144.1ms | ActiveRecord: 0.0ms | Allocations: 34632)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:28:52 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 868ms (Views: 867.0ms | ActiveRecord: 0.0ms | Allocations: 35430)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:29:01 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 888ms (Views: 887.2ms | ActiveRecord: 0.0ms | Allocations: 34992)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:29:13 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 4)
+Completed 200 OK in 890ms (Views: 888.9ms | ActiveRecord: 0.0ms | Allocations: 34998)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:29:29 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 4)
+Completed 200 OK in 861ms (Views: 860.5ms | ActiveRecord: 0.0ms | Allocations: 34160)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:29:49 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 849ms (Views: 848.3ms | ActiveRecord: 0.0ms | Allocations: 35797)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:30:59 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.0ms | Allocations: 15262)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:31:14 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 4)
+Completed 200 OK in 1242ms (Views: 1240.9ms | ActiveRecord: 0.0ms | Allocations: 34992)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:32:09 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 948ms (Views: 947.0ms | ActiveRecord: 0.0ms | Allocations: 35387)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:32:23 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 855ms (Views: 853.7ms | ActiveRecord: 0.0ms | Allocations: 35028)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:32:35 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 4)
+Completed 200 OK in 877ms (Views: 875.8ms | ActiveRecord: 0.0ms | Allocations: 35424)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:33:01 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 858ms (Views: 857.3ms | ActiveRecord: 0.0ms | Allocations: 34998)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:34:08 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 86)
+Completed 200 OK in 842ms (Views: 841.2ms | ActiveRecord: 0.0ms | Allocations: 35665)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:34:22 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 850ms (Views: 849.1ms | ActiveRecord: 0.0ms | Allocations: 35379)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:34:29 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 15699)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:35:22 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 863ms (Views: 862.4ms | ActiveRecord: 0.0ms | Allocations: 35339)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:36:05 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 4)
+Completed 200 OK in 886ms (Views: 885.3ms | ActiveRecord: 0.0ms | Allocations: 35384)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:36:21 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 887ms (Views: 886.1ms | ActiveRecord: 0.0ms | Allocations: 35372)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:36:38 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 923ms (Views: 922.0ms | ActiveRecord: 0.0ms | Allocations: 34578)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:36:52 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 859ms (Views: 857.9ms | ActiveRecord: 0.0ms | Allocations: 36182)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:37:05 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 871ms (Views: 870.5ms | ActiveRecord: 0.0ms | Allocations: 34991)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:37:15 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 897ms (Views: 895.8ms | ActiveRecord: 0.0ms | Allocations: 34964)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:37:26 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 26ms (Views: 25.5ms | ActiveRecord: 0.0ms | Allocations: 15287)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:37:46 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 4)
+Completed 200 OK in 864ms (Views: 863.6ms | ActiveRecord: 0.0ms | Allocations: 35425)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:37:58 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 850ms (Views: 849.1ms | ActiveRecord: 0.0ms | Allocations: 36196)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:38:06 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 837ms (Views: 836.3ms | ActiveRecord: 0.0ms | Allocations: 35796)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:38:16 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 876ms (Views: 875.0ms | ActiveRecord: 0.0ms | Allocations: 35006)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:42:29 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 1260ms (Views: 1259.1ms | ActiveRecord: 0.0ms | Allocations: 35381)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:43:29 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 1677ms (Views: 1675.8ms | ActiveRecord: 0.0ms | Allocations: 34999)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:46:58 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 1745ms (Views: 1744.6ms | ActiveRecord: 0.0ms | Allocations: 35395)
+
+
+Started GET "/posts/" for ::1 at 2020-03-16 03:47:02 +1100
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:18
+  Rendered posts/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1705)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.3ms | Allocations: 17283)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:47:09 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.0ms | Allocations: 15212)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:48:04 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 852ms (Views: 850.7ms | ActiveRecord: 0.0ms | Allocations: 34962)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:48:59 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 894ms (Views: 893.2ms | ActiveRecord: 0.0ms | Allocations: 34986)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:49:15 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 876ms (Views: 875.1ms | ActiveRecord: 0.0ms | Allocations: 35003)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:49:31 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 4)
+Completed 200 OK in 860ms (Views: 858.9ms | ActiveRecord: 0.0ms | Allocations: 35343)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:49:42 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 4)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms | Allocations: 15299)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:52:11 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 84)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.0ms | Allocations: 16266)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:52:25 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 79)
+Completed 200 OK in 38ms (Views: 36.5ms | ActiveRecord: 0.0ms | Allocations: 16252)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:55:21 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 79)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.0ms | Allocations: 16249)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:55:29 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 79)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 16253)
+
+
+Started GET "/posts/" for ::1 at 2020-03-16 03:55:40 +1100
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:18
+  Rendered posts/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1692)
+Completed 200 OK in 35ms (Views: 32.0ms | ActiveRecord: 0.6ms | Allocations: 17235)
+
+
+Started GET "/posts/1" for ::1 at 2020-03-16 03:55:43 +1100
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (1.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:67:in `set_post'
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (Duration: 3.2ms | Allocations: 612)
+Completed 200 OK in 47ms (Views: 23.5ms | ActiveRecord: 1.4ms | Allocations: 18968)
+
+
+Started GET "/posts/1/edit" for ::1 at 2020-03-16 03:55:46 +1100
+Processing by PostsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (2.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:67:in `set_post'
+  Rendering posts/edit.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 27.2ms | Allocations: 3797)
+  Rendered posts/edit.html.erb within layouts/application (Duration: 31.5ms | Allocations: 4213)
+Completed 200 OK in 62ms (Views: 55.3ms | ActiveRecord: 2.6ms | Allocations: 19887)
+
+
+Started GET "/posts/1" for ::1 at 2020-03-16 03:55:49 +1100
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:67:in `set_post'
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 375)
+Completed 200 OK in 26ms (Views: 21.9ms | ActiveRecord: 0.4ms | Allocations: 15911)
+
+
+Started GET "/posts" for ::1 at 2020-03-16 03:55:51 +1100
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:18
+  Rendered posts/index.html.erb within layouts/application (Duration: 37.3ms | Allocations: 1394)
+Completed 200 OK in 62ms (Views: 60.8ms | ActiveRecord: 0.5ms | Allocations: 16364)
+
+
+Started GET "/posts/new" for ::1 at 2020-03-16 03:56:01 +1100
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 4.7ms | Allocations: 1551)
+  Rendered posts/new.html.erb within layouts/application (Duration: 8.0ms | Allocations: 1763)
+Completed 200 OK in 34ms (Views: 32.0ms | ActiveRecord: 0.0ms | Allocations: 16886)
+
+
+Started POST "/posts" for ::1 at 2020-03-16 03:56:14 +1100
+Processing by PostsController#create as HTML
+  Parameters: {"authenticity_token"=>"/s16wghQ0vN0+7jnuyZU6UTGiL2BoT5VlJqc5bTmMEc7BuyMbJedVeG7JvSQKZi3w9b6uf/ZKlMyqYLvsEpCrQ==", "post"=>{"user_id"=>"4", "name"=>"daniel", "city"=>"sydney", "title"=>"hi", "content"=>"hi"}, "commit"=>"Create Post"}
+  [1m[35m (5.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/posts_controller.rb:30:in `block in create'
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:30:in `block in create'
+  [1m[35m (5.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/posts_controller.rb:30:in `block in create'
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 3.6ms | Allocations: 1445)
+  Rendered posts/new.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1536)
+Completed 200 OK in 79ms (Views: 20.8ms | ActiveRecord: 23.0ms | Allocations: 24262)
+
+
+Started GET "/" for ::1 at 2020-03-16 03:56:22 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 26ms (Views: 25.1ms | ActiveRecord: 0.0ms | Allocations: 15220)
+
+
+Started GET "/posts/" for ::1 at 2020-03-16 03:59:46 +1100
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:18
+  Rendered posts/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1396)
+Completed 200 OK in 38ms (Views: 36.9ms | ActiveRecord: 0.5ms | Allocations: 16363)
+
+
+Started GET "/posts/new" for ::1 at 2020-03-16 03:59:48 +1100
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 4.8ms | Allocations: 1517)
+  Rendered posts/new.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1608)
+Completed 200 OK in 26ms (Views: 25.2ms | ActiveRecord: 0.0ms | Allocations: 16585)
+
+
+Started POST "/posts" for ::1 at 2020-03-16 03:59:58 +1100
+Processing by PostsController#create as HTML
+  Parameters: {"authenticity_token"=>"lsRg2/yTNg3Vpv0K2f1BJdK41Ioo7lEEG+mNSUuiYo9TD/aVmFR5q0DmYxny8o17VaimjlaWRQK92pNDTw4QZQ==", "post"=>{"user_id"=>"4", "name"=>"daniel", "city"=>"sydney", "title"=>"hi", "content"=>"hi"}, "commit"=>"Create Post"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/posts_controller.rb:30:in `block in create'
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:30:in `block in create'
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/posts_controller.rb:30:in `block in create'
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 4.3ms | Allocations: 1426)
+  Rendered posts/new.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1517)
+Completed 200 OK in 38ms (Views: 29.1ms | ActiveRecord: 1.3ms | Allocations: 20007)
+
+
+Started GET "/" for ::1 at 2020-03-16 04:00:06 +1100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 20ms (Views: 19.9ms | ActiveRecord: 0.0ms | Allocations: 15226)
+
+

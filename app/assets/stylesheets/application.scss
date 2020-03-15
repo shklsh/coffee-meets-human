@@ -24,12 +24,27 @@
     text-align: right;
 }
 
-.navbarNav a {
-    text-align: left;
-}
-
 #navbar {
-    color:#fff;
     background-color: #000000;
 }
 
+h1 {
+    color: #fff;
+}
+
+.navbarNav {
+    color: white;
+    padding: 15px 20px 15px 20px;
+    text-align: left;
+}
+
+.navbarAnchor {
+    color: white;
+    padding: 15px 20px 15px 20px;
+}
+
+.navbarAnchor:hover {
+    color: red;
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+}
