@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  skip_before_action :require_user, only: [:new, :create]  
   before_action :set_user, only: [:show, :edit, :update, :destroy]
 
   # GET /users
@@ -10,6 +11,7 @@ class UsersController < ApplicationController
   # GET /users/1
   # GET /users/1.json
   def show
+    @posts = @user.posts
   end
 
   # GET /users/new
@@ -69,6 +71,6 @@ class UsersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def user_params
-      params.require(:user).permit(:name, :age, :email)
+      params.require(:user).permit(:username, :email, :password, :password_confirmation)
     end
 end
